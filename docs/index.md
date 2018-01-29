@@ -3,12 +3,12 @@
 > Utility is in the eye of the beholder.
 
 Here are golang utilities I have created.
-`go get github.com/philoserf/got/<name>`
+`go get github.com/philoserf/utils/<name>`
 
+- [`clone-all`][clone-all]: WIP: future replacement for my shell script
 - [`contact-me`][contact-me]: my personal hello world
 - [`expvars-example`][expvars-example]: an example of `import _ "expvars"`
 - [`unimplimented`][unimplimented]: panic! Oh my
-- [`webcheck`][webcheck]: an example of using [Sourcegraph's Checkup][checkup]
 
 -----
 
@@ -21,9 +21,9 @@ Copyright 2018 by Mark Ayers. [License]
 
 [checkup]: https://github.com/sourcegraph/checkup
 
+[clone-all]: https://github.com/philoserf/utils/clone-all/
 [contact-me]: https://github.com/philoserf/utils/contact-me/
 [expvars-example]: https://github.com/philoserf/utils/expvars-example/
 [unimplimented]: https://github.com/philoserf/utils/unimplimented/
-[webcheck]: https://github.com/philoserf/utils/webcheck/
 
 [License]: https://github.com/philoserf/utils/License.md
