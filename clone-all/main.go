@@ -16,7 +16,11 @@ func init() {
 
 func main() {
 	ctx := context.Background()
+<<<<<<< HEAD
 	client := authn()
+=======
+	client := auth()
+>>>>>>> Various clean up changes
 
 	var query struct {
 		Viewer struct {
@@ -35,7 +39,11 @@ func main() {
 	log.Fatal("TODO: finish the base implementation")
 }
 
+<<<<<<< HEAD
 func authn() *githubql.Client {
+=======
+func auth() *githubql.Client {
+>>>>>>> Various clean up changes
 	src := oauth2.StaticTokenSource(
 		&oauth2.Token{AccessToken: os.Getenv("GITHUB_TOKEN")},
 	)
