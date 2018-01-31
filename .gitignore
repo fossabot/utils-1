@@ -1,27 +1,19 @@
-# Compiled Object files, Static and Dynamic libs (Shared Objects)
-*.o
-*.a
-*.so
-
-# Folders
+_cgo_defun.c
+_cgo_export.*
+_cgo_gotypes.go
 _obj
 _test
-
-# Architecture specific extensions/prefixes
-*.[568vq]
+_testmain.go
 [568vq].out
-
+*.[568vq]
+*.a
 *.cgo1.go
 *.cgo2.c
-_cgo_defun.c
-_cgo_gotypes.go
-_cgo_export.*
-
-_testmain.go
-
 *.exe
-*.test
+*.o
 *.prof
-
-# Output of the go coverage tool, specifically when used with LiteIDE
+*.so
+*.test
 *.out
+
+vendor
