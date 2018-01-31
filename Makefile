@@ -59,7 +59,7 @@ precommit: vet lint test
 bootstrap:
 ifndef MMAKE
 	go get -u github.com/tj/mmake/cmd/mmake
-	@echo "Alias make=mmake"
+	@echo "You may want to 'alias make=mmake'"
 else
 	@echo "Already Installed: mmake. Skipping."
 endif
