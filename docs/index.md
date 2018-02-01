@@ -13,6 +13,7 @@ Here are golang utilities I have created.
 -----
 
 [![Codacy Badge][codacy-badge]][codacy-link]
+[![BCH compliance](https://bettercodehub.com/edge/badge/philoserf/utils?branch=master)](https://bettercodehub.com/)
 
 Copyright 2018 by Mark Ayers. [License]
 
